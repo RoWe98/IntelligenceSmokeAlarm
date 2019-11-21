@@ -1,0 +1,19 @@
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>FMD检测器</view>
+  <view class='text-content'>
+    <view>Hi！关于我们的项目以及人员</view>
+    <view class='margin-top-sm'>本小程序是一套基于可燃气体检测的工具，主要功能有温湿度检测，可燃气体检测以及报警。</view>
+    <view class='margin-top-sm'>项目是开源的，现在介绍我们项目的人员分工信息:</view>
+    <view class='margin-top-sm'>罗少淇 微信小程序的设计及开发</view>
+    <view class='margin-top-sm'>袁昭 硬件代码编写及调试</view>
+    <view class='margin-top-sm'>茹彪 硬件设计及电路原理</view>
+    <view class='margin-top-sm'>孙翀 整体测试与纠错改进</view>
+    <view class='margin-top-sm'>张宏炀 LED灯与温湿度模块</view>
+    <view class='margin-top-sm'>刘子文 iot配置及ppt制作</view>
+    <view class='margin-top-sm'>更多功能敬请期待！</view>
+  </view>
+</view>
+
+<view class="padding">
+  <button class="cu-btn block bg-blue margin-tb-sm lg"role="button"aria-disabled="true" bindtap="NavChange">返回主页</button>
+</view>

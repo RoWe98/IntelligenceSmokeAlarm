@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/about/about/about",
+    "pages/about/log/log",
+    "pages/about/test/list",
+    "pages/about/test/filter",
+    "pages/about/home/home" 
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "FMD检测器",
+    "navigationBarTextStyle": "black"
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,55 @@
+<timeline> </timeline>
+
+<swiper indicator-dots='true' indicator-color='red' indicator-active-color='yellow' autoplay='true'>
+    <swiper-item>
+      <image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1494513352,942532956&fm=26&gp=0.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574314650283&di=597349c8d8aaa6706fc3ebfedfea07ed&imgtype=0&src=http%3A%2F%2Fwww.yjbys.com%2Fuploadfiles%2F201507%2F150720111824112980i9c0gl0g3jpv.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574314650273&di=76ae16e0f8ce78303a88e25189a280ca&imgtype=0&src=http%3A%2F%2Fwww.gdyqs.cn%2FUpLoadFiles%2FOther%2F2015-11%2F2015111015495884629.jpg'></image>
+    </swiper-item>
+  </swiper>
+
+<view class="cu-timeline">
+  <view class="cu-time">Notice</view>
+    <view class="cu-item cur cuIcon-noticefill">
+      <view class="content bg-green shadow-blur">
+        <text></text>
+          安全第一，预防为主。
+        </view>
+    </view>
+    <view class="cu-item text-red cuIcon-attentionforbidfill">
+      <view class="content bg-blue shadow-blur">
+        <text></text>
+          隐患险于明火，防范胜于救灾，
+      </view>
+    </view>
+    <view class="cu-item text-grey cuIcon-evaluate_fill">
+      <view class="content bg-grey shadow-blur">
+        <text></text>
+          居安思危，警钟常鸣。
+      </view>
+    </view>
+    <view class="cu-item text-blue">
+      <view class="content bg-red shadow-blur">
+        <text></text>
+          居安思危，警钟常鸣。
+      </view>
+    </view>
+</view>
+<view class="cu-bar tabbar bg-white shadow foot">
+  <view class="action" bindtap="NavChange" data-cur="basics">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/basics{{PageCur=='basics'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='basics'?'text-green':'text-gray'}}"></view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="component">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/component{{PageCur=='component'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='component'?'text-green':'text-gray'}}">控制</view>
+  </view>
+</view>

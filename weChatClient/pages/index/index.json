@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "basics": "../pages/index/index",
+    "control": "../pages/my/my",
+    "list": "/pages/component/timeline/timeline"
+  }
+}

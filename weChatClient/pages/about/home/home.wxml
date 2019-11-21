@@ -1,0 +1,45 @@
+
+<scroll-view scroll-y>
+  <view class="UCenter-bg">
+    <image src="/images/logo.png" class="png" mode="widthFix"></image>
+    <view class="text-xl">智能面板
+      <text class="text-df">v0.1</text>
+    </view>
+    <view class="margin-top-sm">
+      <text>By:5男一狗</text>
+    </view>
+    <image src="https://raw.githubusercontent.com/weilanwl/ColorUI/master/demo/images/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+  </view>
+  <view class="padding flex text-center text-grey bg-white shadow-warp">
+    <view class="flex flex-sub flex-direction solid-right">
+      <view class="text-xxl text-orange">{{temp}}</view>
+      <view class="margin-top-sm">
+        <text class="cuIcon-attentionfill"></text> 温度</view>
+    </view>
+    <view class="flex flex-sub flex-direction">
+      <view class="text-xxl text-green">{{iii}}</view>
+      <view class="margin-top-sm">
+        <text class="cuIcon-fork"></text> 浓度</view>
+    </view>
+    <view class="flex flex-sub flex-direction">
+      <view class="text-xxl text-green">{{humi}}</view>
+      <view class="margin-top-sm">
+        <text class="cuIcon-fork"></text> 湿度</view>
+    </view>
+  </view>
+</scroll-view>
+
+<view class="cu-bar tabbar bg-white shadow foot">
+  <view class="action" bindtap="NavChange" data-cur="basics">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/basics{{PageCur=='basics'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='basics'?'text-green':'text-gray'}}">主页</view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="component">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/component{{PageCur=='component'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='component'?'text-green':'text-gray'}}">控制</view>
+  </view>
+</view>
